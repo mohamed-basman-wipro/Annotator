@@ -1,0 +1,24 @@
+Variable 'TASKS_FILE' should have a type hint: str.
+Function parameter 'tasks' in function 'save_tasks' should have an explicit type hint.
+Function parameter 'description' in function 'add_task' should have an explicit type hint.
+Function parameter 'due_date' in function 'add_task' should have an explicit type hint.
+Function parameter 'category' in function 'add_task' should have an explicit type hint.
+Function parameter 'task_id' in function 'flush_task' should have an explicit type hint.
+Variable 'tasks' should have a type hint: Some type needed.
+Variable 'new_task' should have a type hint: Dict[str, Some type needed].
+Variable 'tasks' should have a type hint: Some type needed.
+Variable 'table' should have a type hint: Some type needed.
+Variable 'tasks' should have a type hint: Some type needed.
+Variable 'tasks' should have a type hint: Some type needed.
+Variable 'tasks' should have a type hint: Some type needed.
+Argument 'TASKS_FILE' in function call should have an explicit type hint.
+Argument 'new_task' in function call should have an explicit type hint.
+Argument 'tasks' in function call should have an explicit type hint.
+Argument 'tasks' in function call should have an explicit type hint.
+Argument 'tasks' in function call should have an explicit type hint.
+Argument 'TASKS_FILE' in function call should have an explicit type hint.
+Argument 'tasks' in function call should have an explicit type hint.
+Argument 'file' in function call should have an explicit type hint.
+Argument 'TASKS_FILE' in function call should have an explicit type hint.
+Argument 'file' in function call should have an explicit type hint.
+Argument 'tasks' in function call should have an explicit type hint.

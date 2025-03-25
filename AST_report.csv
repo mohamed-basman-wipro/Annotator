@@ -1,0 +1,17 @@
+SL_No,Module,Function,Function_Return_Type,Function_Arguments,Function_Argument_Type,Annotator_Type
+1,cli,choice,Unknown,N/A,Some type needed.,AST
+2,cli,description,Unknown,N/A,Some type needed.,AST
+3,cli,due_date,Unknown,N/A,Some type needed.,AST
+4,cli,category,Unknown,N/A,Some type needed.,AST
+5,cli,tasks_table,Unknown,N/A,Some type needed.,AST
+6,cli,sub_choice,Unknown,N/A,Some type needed.,AST
+7,cli,task_id,Unknown,N/A,Some type needed.,AST
+8,cli,proceed,Unknown,N/A,Some type needed.,AST
+1,task_manager,TASKS_FILE,Unknown,N/A,str.,AST
+2,task_manager,tasks,Unknown,N/A,Some type needed.,AST
+3,task_manager,new_task,Unknown,N/A,"Dict[str, Some type needed].",AST
+4,task_manager,tasks,Unknown,N/A,Some type needed.,AST
+5,task_manager,table,Unknown,N/A,Some type needed.,AST
+6,task_manager,tasks,Unknown,N/A,Some type needed.,AST
+7,task_manager,tasks,Unknown,N/A,Some type needed.,AST
+8,task_manager,tasks,Unknown,N/A,Some type needed.,AST

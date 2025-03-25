@@ -1,0 +1,16 @@
+Variable 'choice' should have a type hint: Some type needed.
+Variable 'description' should have a type hint: Some type needed.
+Variable 'due_date' should have a type hint: Some type needed.
+Variable 'category' should have a type hint: Some type needed.
+Variable 'tasks_table' should have a type hint: Some type needed.
+Argument 'description' in function call should have an explicit type hint.
+Argument 'due_date' in function call should have an explicit type hint.
+Argument 'category' in function call should have an explicit type hint.
+Argument 'tasks_table' in function call should have an explicit type hint.
+Argument 'list' in function call should have an explicit type hint.
+Variable 'sub_choice' should have a type hint: Some type needed.
+Argument 'tasks_table' in function call should have an explicit type hint.
+Variable 'task_id' should have a type hint: Some type needed.
+Argument 'tasks_table' in function call should have an explicit type hint.
+Variable 'proceed' should have a type hint: Some type needed.
+Argument 'task_id' in function call should have an explicit type hint.

@@ -1,0 +1,2 @@
+[console_scripts]
+righttyper = righttyper.righttyper:main

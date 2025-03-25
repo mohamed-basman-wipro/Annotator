@@ -1,0 +1,23 @@
+/home/training/RightTyper/task_manager.py:
+==========================================
+
+add_task
+
+  # Add a new task
+- def add_task(description, due_date, category) -> str:
++ def add_task(description: str, due_date: str, category: str) -> str:
+?                         +++++          +++++          +++++
+
+flush_task
+
+  # Flush a specific task by ID
+- def flush_task(task_id) -> str:
++ def flush_task(task_id: int) -> str:
+?                       +++++
+
+save_tasks
+
+  # Save tasks to file
+- def save_tasks(tasks) -> None:
++ def save_tasks(tasks: list[dict[str, int|str]|Never]) -> None:
+

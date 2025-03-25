@@ -1,0 +1,12 @@
+Variable 'json' is inferred as type: Any
+Variable 'os' is inferred as type: Any
+Variable 'datetime' is inferred as type: function
+Variable 'Any' is inferred as type: function
+Variable 'TASKS_FILE' is inferred as type: str
+Variable 'load_tasks' is inferred as type: function
+Variable 'save_tasks' is inferred as type: function
+Variable 'add_task' is inferred as type: function
+Variable 'list_tasks' is inferred as type: function
+Variable 'flush_task' is inferred as type: function
+Variable 'flush_all_tasks' is inferred as type: function
+Variable 'delete_all_tasks' is inferred as type: function

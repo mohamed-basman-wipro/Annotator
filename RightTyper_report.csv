@@ -1,0 +1,4 @@
+SL_No,Module,Function,Function_Return_Type,Function_Arguments,Function_Argument_Type,Annotator_Type
+1,cli,add_task,str,"description, due_date, category",Explicit,RightTyper
+2,cli,flush_task,str,task_id,Explicit,RightTyper
+3,cli,save_tasks,None,tasks,Explicit,RightTyper

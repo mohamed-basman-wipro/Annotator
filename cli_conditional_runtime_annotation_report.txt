@@ -1,0 +1,7 @@
+Variable 'add_task' is inferred as type: function
+Variable 'list_tasks' is inferred as type: function
+Variable 'flush_task' is inferred as type: function
+Variable 'flush_all_tasks' is inferred as type: function
+Variable 'delete_all_tasks' is inferred as type: function
+Variable 'tabulate' is inferred as type: function
+Variable 'main' is inferred as type: function

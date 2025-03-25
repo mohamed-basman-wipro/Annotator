@@ -1,0 +1,34 @@
+version: '3'
+
+vars:
+  FILES: "cli.py task_manager.py"
+
+tasks:
+  run_ast_annotator:
+    cmds:
+      - python3 AST_Annotator.py {{.FILES}}
+    silent: false
+
+  run_conditional_annotator:
+    cmds:
+      - python3 conditional_annotator.py {{.FILES}}
+    silent: false
+
+  run_right_typer:
+    cmds:
+      - echo "Running RightTyper..."
+      - python3 RightTyper/cli.py {{.FILES}}
+    interactive: true
+    silent: false
+
+  generate_csv_reports:
+    cmds:
+      - python3 generate_csv.py
+    silent: false
+
+  run_all:
+    deps:
+      - run_ast_annotator
+      - run_conditional_annotator
+      - run_right_typer
+      - generate_csv_reports
