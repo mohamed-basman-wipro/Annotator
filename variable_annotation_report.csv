@@ -1,0 +1,17 @@
+Filename,Variable Name,Inferred Type
+task_manager.py,TASKS_FILE,str
+task_manager.py,tasks,list
+task_manager.py,description,function_param
+task_manager.py,due_date,function_param
+task_manager.py,category,function_param
+task_manager.py,new_task,dict
+task_manager.py,table,list
+task_manager.py,task_id,function_param
+cli.py,choice,str
+cli.py,description,str
+cli.py,due_date,str
+cli.py,category,str
+cli.py,tasks_table,list
+cli.py,sub_choice,str
+cli.py,task_id,int
+cli.py,proceed,str
