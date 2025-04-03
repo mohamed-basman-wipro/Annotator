@@ -1,0 +1,36 @@
+version: '3'
+
+tasks:
+  full_pipeline:
+    cmds:
+      - task: run_righttyper
+      - task: run_ast_annotator
+      - task: run_conditional_annotator
+      - task: run_var_annotator
+      - task: generate_final_csv
+    desc: "Run the full annotation pipeline and generate the final report."
+
+  run_righttyper:
+    cmds:
+      - python3 RightTyper/cli.py task_manager.py cli.py
+    desc: "Run RightTyper dynamic (runtime) annotation tool."
+
+  run_ast_annotator:
+    cmds:
+      - python3 AST_Annotator.py task_manager.py cli.py
+    desc: "Run AST static annotation tool."
+
+  run_conditional_annotator:
+    cmds:
+      - python3 conditional_annotator.py task_manager.py cli.py
+    desc: "Run Conditional annotation tool."
+
+  run_var_annotator:
+    cmds:
+      - python3 var_annotator.py task_manager.py cli.py
+    desc: "Run Variable annotation tool."
+
+  generate_final_csv:
+    cmds:
+      - python3 generate_csv.py
+    desc: "Generate the final annotation report combining all tools."
